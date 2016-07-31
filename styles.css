@@ -1,0 +1,59 @@
+h1 {
+	color: #369;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 250%;
+}
+
+body {
+	/* margin: 2em; */
+ 	margin-bottom: 60px;
+}
+
+#map {
+	height: 100%;
+}
+
+#sitesPage div.panel-body {
+	padding: 0;
+	overflow-y: scroll;
+	max-height: 300px;
+}
+
+#sitesPage div.panel-body li span.item {
+	max-width: 75%;
+	display: inline-block;
+}
+
+
+#sitesPage div.panel-body li span.distance {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+#headerPage {
+  	background-image: linear-gradient( 90deg, #4B0082, #800080 );
+  	padding: 1em;
+}
+
+#footerPage {
+	background-color: #2a2730;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #ffffff;
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+	height: 50px;
+	text-align: right;
+}
+
+#footerPage img {
+	position: absolute;
+	vertical-align: bottom;
+	display: block;
+}
